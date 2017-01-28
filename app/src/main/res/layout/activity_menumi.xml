@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/menumi"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Terrace White Cafe atau yang sering disebut MenuMie merupakan seebuah tempat makan atau sebuah kuliner yang berada di Garut. Kuliner yang disajikan disini sangan unik dan beragam dengan ciri khas mie nya yang hijau terbuat dari bahan pewarna alami dan juga berbagai macam minuman yang sangat segar. Lokasi Cafe ini terletak di Jl.  Pakuwon No.29 Garut Kota. Kisaran harga yang ditawarkan punsangat murah mulai dari Rp.9000 sampai dengan Rp. 25.000."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center" />
+
+</RelativeLayout>
